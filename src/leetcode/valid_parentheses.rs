@@ -50,7 +50,8 @@ impl Solution{
 }
 
 fn main(){
-    let par = "()";
+    let mut par:String = String::new();
+    par = "()]";
     let mut result = is_valid(par);
     println!("{}", result);
 }
